@@ -80,3 +80,20 @@
         /* background-color: rgb(167, 250, 187); */
         /* border-radius: 100px; */
     }
+
+    @media screen and (max-width: 800px){
+
+        * {
+            font-size: 0.8rem;
+        }
+
+        .container {
+            width: auto;
+            padding: 30px 15px;
+            margin: 30px auto;
+            font-size: inherit;
+        }
+        .header-row {
+            font-size: relative;
+        }
+    }
