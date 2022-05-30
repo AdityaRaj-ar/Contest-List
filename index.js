@@ -54,7 +54,7 @@ function load()
             data.forEach((item) =>
             document.querySelector("table").innerHTML += `
             <tr>
-                <td><img src="./images/code-forces.svg"></img></td>
+                <td><img src="./code-forces.svg"></img></td>
                 <td>${item.name}</td>
                 <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]}</td>
                 <td><br>${formatTime(item.end_time).split(",")[0]}  <br> ${formatTime(item.end_time).split(",")[1]} </td>
@@ -107,7 +107,7 @@ function load()
             data.forEach((item) =>
             document.querySelector("table").innerHTML += `
             <tr>
-                <td><img src="./images/leetcode.svg"></img></td>
+                <td><img src="./leetcode.svg"></img></td>
                 <td>${item.name}</td>
                 <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]} </td>
                 <td><br>${formatTime(item.end_time).split(",")[0]} <br> ${formatTime(item.end_time).split(",")[1]} </td>
@@ -124,7 +124,7 @@ function load()
                     data.forEach((item) =>
                 document.querySelector("table").innerHTML += `
                 <tr>
-                    <td><img src="./images/atcoder.png"></img></td>
+                    <td><img src="./atcoder.png"></img></td>
                     <td>${item.name}</td>
                     <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]} </td>
                     <td><br>${formatTime(item.end_time).split(",")[0]} <br> ${formatTime(item.end_time).split(",")[1]} </td>
@@ -141,7 +141,7 @@ function load()
             data.forEach((item) =>
             document.querySelector("table").innerHTML += `
             <tr>
-                <td><img src="./images/kickstart.jpg"></img></td>
+                <td><img src="./kickstart.jpg"></img></td>
                 <td>${item.name}</td>
                 <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]} </td>
                 <td><br>${formatTime(item.end_time).split(",")[0]} <br> ${formatTime(item.end_time).split(",")[1]} </td>
@@ -175,7 +175,7 @@ function load()
             data.forEach((item) =>
             document.querySelector("table").innerHTML += `
             <tr>
-                <td><img src="./images/hackerrank.svg"></img></td>
+                <td><img src="./hackerrank.svg"></img></td>
                 <td>${item.name}</td>
                 <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]} </td>
                 <td><br>${formatTime(item.end_time).split(",")[0]} <br> ${formatTime(item.end_time).split(",")[1]} </td>
