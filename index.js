@@ -83,21 +83,21 @@ function load()
         // })
         
         
-        // fetch(codechef).then((response) => response.json()).then(data => {
-        //         console.log(data);
-        //         data.forEach((item) =>
-        //             document.querySelector("table").innerHTML += `
-        //             <tr>
-        //             <td><img src="./codechef.svg"></img></td>
-        //             <td>${item.name}</td>
-        //             <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]}</td>
-        //             <td><br>${formatTime(item.end_time).split(",")[0]}  <br> ${formatTime(item.end_time).split(",")[1]} </td>
-        //             <td>${convertHMS(item.duration)}</td>
-        //             <td><a href=${item.url} target="_blank" rel="noopener noreferrer"> Click here</a> </td>
-        //         </tr>
-        //         `
-        //     )
-        // })
+        fetch(codechef).then((response) => response.json()).then(data => {
+                console.log(data);
+                data.forEach((item) =>
+                    document.querySelector("table").innerHTML += `
+                    <tr>
+                    <td><img src="./codechef.svg"></img></td>
+                    <td>${item.name}</td>
+                    <td><br>${formatTime(item.start_time).split(",")[0]} <br>${formatTime(item.start_time).split(",")[1]}</td>
+                    <td><br>${formatTime(item.end_time).split(",")[0]}  <br> ${formatTime(item.end_time).split(",")[1]} </td>
+                    <td>${convertHMS(item.duration)}</td>
+                    <td><a href=${item.url} target="_blank" rel="noopener noreferrer"> Click here</a> </td>
+                </tr>
+                `
+            )
+        })
 
         
 
